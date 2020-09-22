@@ -1,12 +1,17 @@
-import Navbar from "./components/navbar";
+import Header from "./components/Header";
 import BackgroundVideo from "./components/backgroundvideo";
-import FeaturedNews from "./components/FeaturedNews";
-import fetch from "isomorphic-unfetch";
+import { motion } from "framer-motion";
 import "./assets/css/news.scss";
+import FeaturedNews from "./components/FeaturedNews";
+
 const News = ({ featuredNews }) => {
   return (
-    <div>
-      <Navbar />
+    <motion.div
+      exit={{ opacity: 0 }}
+      inital={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
+      <Header />
       <BackgroundVideo source="/assets/videos/menu_background_video.mp4" />
       <div id="news-wrapper">
         <div id="news-left-wrapper">
@@ -22,7 +27,7 @@ const News = ({ featuredNews }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

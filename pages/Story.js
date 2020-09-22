@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Navbar from "./components/navbar.js";
+import Header from "./components/Header";
 import React, { useEffect, useRef } from "react";
 import BackgroundVideo from "./components/backgroundvideo";
 import "./assets/css/story.scss";
@@ -12,7 +12,7 @@ function Story() {
       inital={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <Navbar />
+      <Header />
       <div id="storyvideo">
         <BackgroundVideo source="/assets/videos/projects_background_video.MOV" />
       </div>

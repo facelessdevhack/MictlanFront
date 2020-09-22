@@ -9,73 +9,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
-#navbar {
-  display: flex;
-  width: 95vw;
-  padding-top: 32px;
-  margin: 0 auto;
-}
-#logo {
-  width: 9vw;
-  height: 3.5vw;
-}
-#nav {
-  width: 52%;
-  margin: 0 auto;
-  justify-content: space-around;
-  display: flex;
-}
-#nav li {
-  flex-direction: row;
-  align-items: center;
-  display: inherit;
-}
-.navlinks {
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 0.81vw;
-  letter-spacing: 0.25vw;
-  font-weight: 300;
-  padding: 0 2px 9px 6px;
-}
-.navlinks:hover {
-  border-bottom: 2px solid white;
-  padding: 0 2px 8px 6px;
-}
-.social_profile {
-  position: relative;
-  top: 2vh;
-}
-.social_profile ul {
-  display: flex;
-  list-style: none;
-  padding-inline-start: 0 !important;
-}
-.social_profile ul li {
-  margin-left: 2vw;
-}
-.social_profile ul li a img {
-  width: 1.7vw;
-}
-#preorder {
-  letter-spacing: 0.25vw;
-  font-weight: 300;
-  color: #4dcfff;
-  text-decoration: none;
-  font-size: 0.75vw;
-  float: right;
-  position: relative;
-  top: 1vh;
-}
-#preorderline {
-  border-bottom: 2px solid white;
-  width: 58%;
-  float: right;
-  position: relative;
-  top: 15px;
-  right: 3px;
-}
+
 .container {
   width: 1540px;
   margin: 0 auto;

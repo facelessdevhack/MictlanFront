@@ -1,6 +1,6 @@
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import Navbar from "./components/navbar.js";
+import Header from "./components/Header";
 import React, { useEffect, useRef } from "react";
 import BackgroundVideo from "./components/backgroundvideo";
 import "./assets/css/order.scss";
@@ -14,7 +14,7 @@ function Order() {
       inital={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <Navbar />
+      <Header />
       <BackgroundVideo source="/assets/videos/menu_background_video.mp4" />
       <div id="order-wrapper">
         <div id="order-left" className="order-divs">

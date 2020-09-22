@@ -1,6 +1,6 @@
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import Navbar from "./components/navbar.js";
+import Header from "./components/Header";
 import React, { useEffect, useRef } from "react";
 import BackgroundVideo from "./components/backgroundvideo";
 import "./assets/css/home.scss";
@@ -14,7 +14,7 @@ function Index(props) {
       inital={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <Navbar />
+      <Header />
       <BackgroundVideo source="/assets/videos/intro.mp4" />
       <div id="centerimgs">
         <img src="/assets/images/coming.png" id="coming" />

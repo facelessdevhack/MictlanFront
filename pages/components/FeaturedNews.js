@@ -6,10 +6,15 @@ const FeaturedNews = ({ featuredNew }) => {
   console.log({ featuredNew });
   const { API_URL } = process.env;
   return (
-    <div id="fea-card">
-      <img src={API_URL + featuredNew.featured_video.url}></img>
-      <p id="fealine">{featuredNew.featuredDes}</p>
-    </div>
+    <Link
+      href="/news/[featured]/[slug]"
+      as={`/news/${featuredNew.featured.slug}/${featuredNew.slug}`}
+    >
+      <div id="fea-card">
+        <img src={API_URL + featuredNew.featured_video.url}></img>
+        <p id="fealine">{featuredNew.title}</p>
+      </div>
+    </Link>
   );
 };
 // export async function getServerSideProps() {
