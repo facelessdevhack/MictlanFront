@@ -1,0 +1,100 @@
+#news-wrapper {
+  width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+  padding-top: 10vh;
+}
+#news-left-wrapper {
+  width: 50%;
+}
+#fea-wrapper {
+  display: flex;
+}
+#news-left-heading {
+  margin-left: 2%;
+}
+#horiline {
+  position: absolute;
+  height: 3.8vw;
+}
+#news-left-head {
+  font-size: 3.8vw;
+  letter-spacing: 4px;
+  font-family: azuria;
+  position: relative;
+  left: 3%;
+}
+#news-left-subline {
+  font-size: 0.6vw;
+  letter-spacing: 0.5vw;
+  position: relative;
+  bottom: 3.7vw;
+  left: 3%;
+}
+
+/* ------------------------------------
+
+     MEDIA QUERIES FOR 1920px WIDTH
+
+   ------------------------------------ */
+@media screen and (max-width: 1920px) {
+  #news-wrapper {
+    width: 1360px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 1440px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 1440px) {
+  #news-wrapper {
+    width: 1024px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 1024px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 1240px) {
+  #news-wrapper {
+    width: 768px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 768px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 768px) {
+  #news-wrapper {
+    width: 580px;
+    top: 0;
+  }
+  #gameart {
+    width: 75%;
+    left: 20%;
+    top: 15%;
+  }
+}

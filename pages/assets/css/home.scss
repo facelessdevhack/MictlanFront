@@ -1,0 +1,344 @@
+#centerimgs {
+  display: grid;
+  position: relative;
+  margin: 0 auto;
+  width: fit-content;
+  top: 30vh;
+}
+#coming {
+  position: relative;
+  //   top: 31vh;
+  margin: 0 auto;
+  width: 22vw;
+}
+#mictlan {
+  position: relative;
+  top: 3vh;
+  margin: 0 auto;
+  width: 20vw;
+}
+#line {
+  position: relative;
+  top: 4vh;
+  margin: 0 auto;
+  width: 3.5vw;
+}
+#thegame {
+  position: relative;
+  top: 6vh;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 6px;
+}
+#form {
+  top: 52vh;
+  position: relative;
+}
+#form p {
+  color: white;
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  font-weight: 200;
+}
+input::placeholder {
+  opacity: 1;
+  color: #000;
+}
+input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+form {
+  width: min-content;
+  margin: 0 auto;
+}
+
+input {
+  width: 520px;
+  height: 60px;
+  padding: 10px 0 10px 35px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.subbtn {
+  position: relative;
+  top: -73px;
+  left: 435px;
+  background: #1f2022;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  //   font-family: "SFCompactDisplay Regular";
+  letter-spacing: 3px;
+  padding: 25px 30px;
+  border-radius: 50px;
+}
+.subbtn:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+@media screen and (max-width: 1920px) {
+  #centerimgs {
+    top: 12vh;
+  }
+  #coming {
+    width: 18vw;
+  }
+  #mictlan {
+    width: 16vw;
+  }
+  #line {
+    width: 1.5vw;
+  }
+  #thegame {
+    font-size: 1rem;
+  }
+  #form {
+    top: 35vh;
+  }
+  #form p {
+    font-size: 0.8rem;
+  }
+  input {
+    width: 430px;
+    height: 35px;
+  }
+  .subbtn {
+    padding: 15px 20px;
+    top: -51px;
+    left: 370px;
+  }
+}
+// KICKSTART SECTION START
+#kickstart {
+  position: relative;
+  width: fit-content;
+  left: 10vw;
+  top: 12.5vh;
+}
+#kickback {
+  width: 13vw;
+}
+#kicktext {
+  position: absolute;
+  top: -0.3vw;
+  color: white;
+  font-size: 1.7rem;
+  letter-spacing: 8px;
+  left: 12%;
+  font-weight: 300;
+}
+#kickdate {
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+  left: 12%;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+#kickline {
+  position: absolute;
+  left: 14.5%;
+  top: 30%;
+  width: 16%;
+}
+#steamcontainer {
+  display: table;
+  position: relative;
+  top: 3vh;
+  left: 12%;
+}
+#kickwish {
+  color: white;
+  font-size: 1.4rem;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+#kicksteam {
+  width: 8vw;
+  margin-left: 22px;
+}
+@media screen and (max-width: 1920px) {
+  #kickstart {
+    top: -9.5vh;
+  }
+  #kickstart a {
+    position: relative;
+  }
+  #kickstart a:hover {
+    position: relative;
+    top: -0.6vh;
+  }
+  #kickback {
+    width: 11vw;
+  }
+  #kicktext {
+    font-size: 1rem;
+    left: 1.3vw;
+    top: -2.3vw;
+  }
+  #kickline {
+    left: 16%;
+    top: -10.5%;
+    width: 26%;
+  }
+  #kickdate {
+    font-size: 0.5rem;
+    left: 9%;
+  }
+  #steamcontainer {
+    left: 7%;
+    top: 4vh;
+  }
+  #kickwish {
+    font-size: 0.8rem;
+  }
+}
+// KICKSTART SECTION END
+
+// FOOTER SECTION START
+#footer {
+  display: flex;
+  position: absolute;
+  bottom: 3vh;
+  left: 3vh;
+  width: 97vw;
+  justify-content: space-between;
+}
+
+// FOOTER LEFT SECTION START
+#footer-left {
+  display: table;
+  position: relative;
+  top: 2.1rem;
+}
+#footer-left-div {
+  display: table-cell;
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+  position: relative;
+  top: 1rem;
+  letter-spacing: 2px;
+}
+#footerimg1 {
+  width: 8vw;
+  margin-left: 6vw;
+  vertical-align: bottom;
+}
+#footerimg2 {
+  width: 4vw;
+  margin-left: 3vw;
+  vertical-align: bottom;
+}
+#footerimg3 {
+  width: 4vw;
+  margin-left: 3vw;
+  vertical-align: bottom;
+}
+
+// FOOTER LEFT SECTION END
+
+// FOOTER RIGHT SECTION START
+#footer-right {
+  display: flex;
+  width: 24%;
+  justify-content: space-between;
+}
+#footer-right-div {
+  position: relative;
+  top: 48%;
+}
+#footer-right-div a {
+  text-decoration: none;
+}
+#latest {
+  width: 13vw;
+}
+#footer-latest-text {
+  position: relative;
+  font-size: 1.7rem;
+  bottom: 5.2rem;
+  color: white;
+  left: 16%;
+  letter-spacing: 6px;
+  font-weight: 200;
+}
+#footer-jap-div {
+  position: relative;
+  top: 32%;
+  right: 3vw;
+}
+#footer-jap-text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#arrow-up {
+  width: 21%;
+  margin-left: 21%;
+}
+#arrow-up2 {
+  width: 21%;
+}
+#arrow-down {
+  width: 21%;
+}
+@media screen and (max-width: 1920px) {
+  #footer-left-div {
+    font-size: 0.6rem;
+    top: 0.5rem;
+  }
+  #footerimg1 {
+    width: 6vw;
+  }
+  #footerimg2 {
+    width: 3vw;
+  }
+  #footerimg3 {
+    width: 3vw;
+  }
+  #footer-right-div {
+    top: 64%;
+  }
+  #footer-right-div:hover {
+    top: 60%;
+  }
+  #footer-jap-div {
+    top: 45%;
+  }
+  #latest {
+    width: 10vw;
+  }
+  #footer-latest-text {
+    font-size: 1rem;
+    left: 7%;
+    bottom: 3.05rem;
+  }
+  #footer-jap-text {
+    font-size: 0.8rem;
+  }
+  #arrow-up {
+    width: 15%;
+    margin-left: 27%;
+  }
+  #arrow-down {
+    width: 15%;
+  }
+  #arrow-up2 {
+    width: 15%;
+  }
+}
+// FOOTER RIGHT SECTION END
+// FOOTER SECTION END

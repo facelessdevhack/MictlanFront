@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Arial Regular;
+  src: url(/public/assets/fonts/ARIAL.TTF);
+}
+
+@font-face {
+  font-family: Arial Bold;
+  src: url(/public/assets/fonts/ARIALBD.TTF);
+}
+
+@font-face {
+  font-family: azuria;
+  src: url(/public/assets/fonts/FontsFree-Net-Azuria.ttf);
+}
+
+@font-face {
+  font-family: SFCompactDisplay Bold;
+  src: url(/public/assets/fonts/FontsFree-Net-SFCompactDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: SFCompactDisplay Regular;
+  src: url(/public/assets/fonts/FontsFree-Net-SFCompactDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot");
+  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.svg#Avenir Medium")
+      format("svg");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url(/public/assets/fonts/AvenirLTStd-Roman.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Roman.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url(/public/assets/fonts/AvenirLTStd-Black.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url(/public/assets/fonts/AvenirLTStd-Book.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Book.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#story-wrapper {
+  color: white;
+  width: 1600px;
+  margin: 0 auto;
+  font-size: SFCompactDisplay Regular;
+  position: relative;
+  top: 10vh;
+  height: fit-content;
+}
+
+#storyvideo video {
+  width: 106vw;
+  left: -3vw;
+}
+
+#story-head {
+  font-size: 3.8vw;
+  letter-spacing: 4px;
+  font-family: azuria;
+  position: relative;
+  left: 2%;
+}
+#story-subline {
+  font-size: 0.6vw;
+  letter-spacing: 0.5vw;
+  position: relative;
+  bottom: 3.7vw;
+  left: 2%;
+}
+#story-description {
+  width: 85%;
+}
+#story-description p {
+  line-height: 1.5vw;
+  font-size: 0.81vw;
+}
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 1920px WIDTH
+  
+     ------------------------------------ */
+@media screen and (max-width: 1920px) {
+  #story-wrapper {
+    width: 1360px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 1440px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 1440px) {
+  #story-wrapper {
+    width: 1024px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 1024px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 1240px) {
+  #story-wrapper {
+    width: 768px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+  
+       MEDIA QUERIES FOR 768px WIDTH
+  
+     ------------------------------------ */
+
+@media screen and (max-width: 768px) {
+  #story-wrapper {
+    width: 580px;
+    top: 0;
+  }
+  #gameart {
+    width: 75%;
+    left: 20%;
+    top: 15%;
+  }
+}

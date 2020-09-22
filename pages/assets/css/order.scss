@@ -1,0 +1,250 @@
+@font-face {
+  font-family: Arial Regular;
+  src: url(/public/assets/fonts/ARIAL.TTF);
+}
+
+@font-face {
+  font-family: Arial Bold;
+  src: url(/public/assets/fonts/ARIALBD.TTF);
+}
+
+@font-face {
+  font-family: azuria;
+  src: url(/public/assets/fonts/FontsFree-Net-Azuria.ttf);
+}
+
+@font-face {
+  font-family: SFCompactDisplay Bold;
+  src: url(/public/assets/fonts/FontsFree-Net-SFCompactDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: SFCompactDisplay Regular;
+  src: url(/public/assets/fonts/FontsFree-Net-SFCompactDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot");
+  src: url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/2090551770be22b09600a40b0b4673b7.svg#Avenir Medium")
+      format("svg");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url(/public/assets/fonts/AvenirLTStd-Roman.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Roman.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url(/public/assets/fonts/AvenirLTStd-Black.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url(/public/assets/fonts/AvenirLTStd-Book.woff2) format("woff2"),
+    url(/public/assets/fonts/AvenirLTStd-Book.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+#order-wrapper {
+  color: white;
+  width: 1600px;
+  margin: 0 auto;
+  font-size: SFCompactDisplay Regular;
+  position: relative;
+  top: 3vh;
+  display: flex;
+}
+#order-heading {
+  height: 17vh;
+}
+.order-divs {
+  width: 48%;
+  padding: 0% 1% 0% 1%;
+}
+#horiline {
+  position: absolute;
+  height: 3.8vw;
+}
+#order-head {
+  font-size: 3.8vw;
+  letter-spacing: 4px;
+  font-family: azuria;
+  position: relative;
+  left: 3%;
+}
+#order-subline {
+  font-size: 0.6vw;
+  letter-spacing: 0.25vw;
+  position: relative;
+  bottom: 3.7vw;
+  left: 4%;
+}
+#order-info {
+  height: 30vh;
+}
+#order-info h2 {
+  font-size: 1.89vw;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+#order-info p {
+  line-height: 2vh;
+  margin-top: -1vh;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.74vw;
+}
+#order-info hr {
+  width: 93%;
+  position: relative;
+  right: 3.2%;
+  top: 1vh;
+}
+#order-platforms {
+  position: relative;
+  right: 5%;
+  top: 2.6vh;
+}
+.platforms {
+  width: 25%;
+  margin-left: 5%;
+}
+#ps5 {
+  position: relative;
+  top: 0.2vh;
+}
+#preorder-or {
+  color: white;
+  display: flex;
+}
+#preorder-btn {
+  padding: 1vw 1.36vw;
+  border-radius: 1.36vw;
+  border: 0px solid white;
+  background-color: #f83d43;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  font-size: 0.81vw;
+}
+#preorder-or-p {
+  font-size: 1.56vw;
+  font-family: "Avenir Medium";
+  margin: 7px 10px 10px 30px;
+}
+#preorder-or-p span {
+  font-size: 1.24vw;
+  margin-left: 5px;
+}
+#note {
+  font-size: 0.75vw;
+  line-height: 2vh;
+  color: rgba(255, 255, 255, 0.85);
+  margin-left: 1%;
+}
+#payment-methods {
+  margin-top: 2vh;
+}
+#cards {
+  width: 37%;
+}
+.payment-methods {
+  width: 20%;
+  position: relative;
+  top: -0.3vh;
+  margin-left: 5%;
+}
+#btc {
+  position: relative;
+  top: 0.5vh;
+}
+#gameart {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  left: 15%;
+  top: 10%;
+}
+
+/* ------------------------------------
+
+     MEDIA QUERIES FOR 1920px WIDTH
+
+   ------------------------------------ */
+@media screen and (max-width: 1920px) {
+  #order-wrapper {
+    width: 1360px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+/* ------------------------------------
+
+     MEDIA QUERIES FOR 1440px WIDTH
+
+   ------------------------------------ */
+
+@media screen and (max-width: 1440px) {
+  #order-wrapper {
+    width: 1024px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+
+     MEDIA QUERIES FOR 1024px WIDTH
+
+   ------------------------------------ */
+
+@media screen and (max-width: 1240px) {
+  #order-wrapper {
+    width: 768px;
+    top: 0;
+  }
+  #gameart {
+    width: 55%;
+    left: 25%;
+  }
+}
+
+/* ------------------------------------
+
+     MEDIA QUERIES FOR 768px WIDTH
+
+   ------------------------------------ */
+
+@media screen and (max-width: 768px) {
+  #order-wrapper {
+    width: 580px;
+    top: 0;
+  }
+  #gameart {
+    width: 75%;
+    left: 20%;
+    top: 15%;
+  }
+}
